@@ -1,0 +1,287 @@
+/*CONFIGURACIONES GENERALES*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+body header {
+    margin: 5% 25% 0 10%;
+    min-width: 50%;
+    
+}
+body main {
+    margin: 0 15% 10% 10%;
+    min-width: 50%;
+    
+}
+
+/*COMIENZA EL HEADER*/
+header {
+    /*Dimensiones*/
+    
+    background-color: rgba(16,101,126,255);
+    border: 0 0 0 0;
+    
+    /*FLEX*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*BORDE*/
+    
+}
+.triangulo {
+    
+    width: 0;
+    height: 0;
+    border-right: 160px solid transparent;
+    border-top: 150px solid transparent;
+    border-left: 160px solid rgba(195,217,222,255);
+    border-bottom: 150px solid rgba(195,217,222,255);
+    
+    /*FLEX*/
+    
+}
+
+.fotoPerfil {
+    /*Dimensiones*/
+    height: 230px;
+    width: 230px;
+    background-color:white;
+    margin: 50px 50px 50px 50px;  
+    /*POSICION*/
+    position: absolute;
+
+    /*border-radius: 30% 0% 30% 0%;*/
+    flex-wrap: wrap;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    /*TEXTO*/
+    color: aliceblue;
+}
+.contenedor1 h2  {
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    /*POSICION*/
+    padding: 0px 0px 10px 20px;
+}
+.contenedor1 p {
+    max-width: 100%;
+    padding: 0px 50px 0px 10px;
+    background-color: rgb(63, 13, 110);
+    line-height: 1.5;
+    /*TEXTO*/
+    font-weight:600;
+}
+.separadorNombre {
+    vertical-align: left;
+    max-width: 90%;
+    border: 4px solid white;
+    margin: 0px 50px 20px 20px;
+}
+
+
+/*COMIENZO DE MAIN*/
+main {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    
+
+}
+.contenedor2 {
+    /*BORDE*/
+    background-color: rgba(195,217,222,255);
+    max-width: 100%;
+    bottom: 0;
+    left: 0;
+    list-style-position: inside;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /*align-items:flex-start;*/
+    padding: 15px 80px 0px 30px;
+    line-height: 2;
+}
+
+/**Personalizar listas
+ul li {
+    list-style-position: inside;
+}*/
+
+.semititulo {
+    margin: 0px 0px 10px 0px;
+    font-style: italic;
+    font-weight: bold;
+}
+.separadorSemi1{
+    vertical-align: left;
+    max-width: 100%;
+    border: 1px solid black;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.separadorSemi2{
+    vertical-align: left;
+    max-width: 100%;
+    border: 1px solid rgba(16,101,126,255);
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacto-img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px 0 0;
+}
+.idiomaNivel {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+ .barra {
+    max-width: 210px;
+    height: 10px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.progreso{
+    max-width: var(--w);
+    height: 10px;
+    background-color: rgb(18, 78, 117);
+    border-radius: 10px;
+}
+
+
+.contenedor3 {
+    /*BORDE*/
+    min-width: 65% ;
+   /* background-color: rgb(233, 197, 98);*/
+    
+    padding: 13px 50px 50px 50px;
+    margin: 0px 0px 0px 0px;
+    line-height: 1.5;
+}
+/*CONFIGURACION DE EXPERIENCIA LABORAL Y ESTUDIOS*/
+.puestoyfecha {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.puesto {
+    font-weight: bold;
+}
+.empresa {
+    font-weight: bold;
+    color: rgba(20,104,128,255);
+}
+.ubicacion {
+    color: rgba(58,129,149,255);
+}
+.actividades {
+    margin: 10px 0px 30px 20px;
+}
+.institucion {
+    font-weight: bold;
+}
+.estudio {
+    margin: 0px 0px 30px 0px;
+}
+
+
+/*COMIENZA EL FOOTER*/
+footer {
+    width:100%;
+    /*position: absolute;*/
+    bottom: 0;
+    left: 0;
+    padding: 1em 8%;
+    /*Imagenes de fondo*/
+    background-image: url("../../imagenes/universo.jpg"); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-height: 80px;
+    max-width: 200px;
+    margin-bottom: 1rem;
+}
+
+.social-iconos , .footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2px 0px 0px 0px;
+}
+
+.social-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    /*border: 1px solid #f2f2f2f2;*/
+    background-image: url("../../imagenes/linkedin.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover{
+    background-color: black;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url("../../imagenes/github.png");
+    background-color: white;
+} 
+.social-icon:nth-of-type(3){
+    background-image: url("../../imagenes/whatsapp.png");
+} 
+
+
+/*.footer-menu{
+    list-style-type: none;
+    color:antiquewhite;
+    font-size: 18px;
+}
+
+.menu-item {
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.menu-item:hover {
+    opacity: 1;
+}*/
+
+.copyright {
+    color:white;
+    opacity: 0.8;
+    text-align: center;
+    margin: 1em;
+}
+
+/*Colores
+rgba(20,104,128,255) - Letras GRANDES
+rgba(58,129,149,255) letra chica 
+*/

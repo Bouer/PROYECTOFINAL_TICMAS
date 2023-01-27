@@ -1,0 +1,60 @@
+@media screen and (max-width: 500px) {
+    body header {
+        font-family: 'Blinker', sans-serif;
+        text-align: center;
+        margin: 0;
+        min-width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+        
+    }
+    .triangulo , .separadorNombre{
+        border: 0;
+    }
+    .fotoPerfil {
+        position: relative;
+        width: 230px;
+        height: 230px;
+        margin: 1rem 0 2rem 0;
+    }
+    .contenedor1 h2 , .contenedor1 p  {
+            padding: 0 ;
+            
+    }
+    .contenedor1 h2{
+        font-size: 40px;
+        font-style: italic;
+        
+    }
+    .contenedor1 p  {
+        padding: 0 ;
+        margin-bottom: 2rem;
+}
+
+        /*COMIENZO DE MAIN*/
+
+    /*COMIENZO DE MAIN*/
+    main {
+        align-items:unset;
+    }
+    body main {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        /*align-items:center;*/
+        justify-content:center;
+        
+
+    }
+    .contenedor2 {
+        text-align: center;
+    }
+    .barra {
+        max-width: 310px;
+        height: 10px;
+        background-color: white;
+        border-radius: 10px;
+    }
+}

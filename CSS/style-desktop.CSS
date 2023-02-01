@@ -41,7 +41,7 @@ header {
     height: 0;
     border-right: 160px solid transparent;
     border-top: 150px solid transparent;
-    border-left: 160px solid rgba(195,217,222,255);
+    border-left: 145px solid rgba(195,217,222,255);
     border-bottom: 150px solid rgba(195,217,222,255);
     
     /*FLEX*/

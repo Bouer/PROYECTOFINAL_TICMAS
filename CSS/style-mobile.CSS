@@ -48,8 +48,14 @@
         
 
     }
+    .info {
+        flex-wrap: wrap;
+    }
     .contenedor2 {
-        text-align: center;
+       text-align: center;
+       flex-grow: none;
+       flex-shrink: none;
+       flex-basis: auto;
     }
     .barra {
         max-width: 310px;

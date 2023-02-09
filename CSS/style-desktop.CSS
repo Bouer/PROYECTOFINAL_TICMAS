@@ -8,6 +8,10 @@
     transition: 0.5s;
     
 }
+
+html {  
+  scroll-behavior: smooth;
+}
 /*body header {
     font-family: 'Blinker', sans-serif;
     margin: 3rem 25% 0 10%;
@@ -20,6 +24,10 @@ body main {
     display: flex;
     flex-direction: column;
     
+}
+
+div p[id] {
+  scroll-margin-top: 100px;
 }
 
 /*COMIENZA EL HEADER*/

@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     body header {
         font-family: 'Blinker', sans-serif;
         text-align: center;
@@ -22,13 +22,14 @@
     }
     .contenedor1 {
         margin: 1em;
+        text-align: center;
     }
     .contenedor1 h2 , .contenedor1 p  {
             padding:  0 1rem ;
             
     }
     .contenedor1 h2{
-        font-size: 34px;
+        font-size: 30px;
         font-style: italic;
     }
     .contenedor1 p  {

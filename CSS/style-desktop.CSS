@@ -1,9 +1,7 @@
-
-    /*CONFIGURACIONES GENERALES*/
 * {
     
     margin: 0;
-    padding: 0;
+    padding: 0 ;
     box-sizing: border-box;
     transition: 0.5s;
     
@@ -11,6 +9,7 @@
 
 html {  
   scroll-behavior: smooth;
+  padding-top: 60px;
 }
 /*body header {
     font-family: 'Blinker', sans-serif;

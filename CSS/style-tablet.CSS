@@ -1,4 +1,4 @@
-@media screen and (max-width: 1100px) and (min-width: 500px) {
+@media screen and (max-width: 900px) and (min-width: 500px) {
 
         /*COMIENZO DEL HEADER*/
     body header {
@@ -10,30 +10,43 @@
         flex-direction: column;
         align-items:center;
         justify-content:flex-start;
-        
     }
+    .menu_burger {
+        justify-content: space-around;
+    }
+
+
     .triangulo , .separadorNombre{
         border: 0;
     }
+    
     .fotoPerfil {
         position: relative;
         width: 290px;
         height: 290px;
-        margin: 1rem 0 2rem 0;
+        margin: 1rem auto
     }
     .nombre {
         font-size: 1.5rem;
-        margin: 0  1rem 2rem;
+        margin:auto;
     }
 
         /*COMIENZO DE MAIN*/
+        .contenedor1{
+            max-width: 100%;
+            text-align: center;
+    }
+    
+    .contenedor1 p{
+        padding: 0 4em 0 1em;
+    }
 
     /*COMIENZO DE MAIN*/
     body main {
-    margin: 0 0 10% 0;     
+    margin: 0 0 10% 0;
     }
     .contenedor3 {
-        min-width: 73%;
+        max-width: 500px
     }
 }
 
